@@ -64,3 +64,8 @@ ul.proj{
   word-spacing: 1.2;
   line-height: 1.2;
 }
+
+img{
+    width: 50%;
+    height: 50%;
+}
