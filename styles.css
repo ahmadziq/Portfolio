@@ -22,16 +22,26 @@ section {
 h2 {
     color: #333;
     text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
 
 h3 {
     color: #555;
     text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 ul {
-    list-style-type: circle;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 90;
+}
+
+ul.satu{
+   list-style-type: circle;
+   padding-top:15;
+   padding-left: 70
 }
 
 li {
