@@ -68,4 +68,5 @@ ul.proj{
 img{
     width: 50%;
     height: 50%;
+    justify-content: center;
 }
