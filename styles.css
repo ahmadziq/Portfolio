@@ -51,6 +51,7 @@ ul {
 
 ul.apa{
     padding: 20px;
+    list-style-type: disc;
 }
 
 li {
