@@ -21,10 +21,12 @@ section {
 
 h2 {
     color: #333;
+    text-align: center;
 }
 
 h3 {
     color: #555;
+    text-align: center;
 }
 
 ul {
