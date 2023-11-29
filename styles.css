@@ -35,13 +35,13 @@ h3 {
 
 ul {
     list-style-type: disc;
-    padding-left: 90;
+    padding-left: 90px;
 }
 
 ul.satu{
    list-style-type: circle;
-   padding-top:50;
-   padding-left: 70;
+   padding-top:20px;
+   padding-left: 70px;
 }
 
 li {
