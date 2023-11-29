@@ -58,3 +58,8 @@ ul.apa{
 li {
     margin-bottom: 10px;
 }
+
+ul.proj{
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
