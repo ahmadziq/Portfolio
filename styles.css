@@ -12,8 +12,9 @@ header {
 }
 
 header img {
-    border-radius: 50%;
-    max-width: 150px;
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
     margin-bottom: 10px;
 }
 
