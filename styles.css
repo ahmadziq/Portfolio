@@ -79,3 +79,11 @@ img.logo{
     width:20px;
     height: 20px;
 }
+
+.dropdown-content {
+    display: none;
+    padding-left: 20px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
