@@ -80,6 +80,12 @@
             <h3>Industry Talk and Industry Visit</h3>
             <ul class ="proj">
                 <img class = "gm" src="img/Overview of ICT Jobs (1)-1.png" alt="poster">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                    <div id="myDropdown" class="dropdown-content">
+                     <li>test</li> 
+                    </div>
+                  </div>
                 <li>For this assignment, we need to create a poster based on an industrial talk that we attended. The industrial discussion was hosted by UTM with the help of Clarity Techworks. This industry talk discusses about IT jobs that are currently available to people pursuing computer science degrees.
 
                     Because of the speed at which technology is developing, the speaker mostly focused on the value of adaptation in the IT industry. They discussed a few IT jobs, including data analysis, software development, and user interface design.
@@ -109,6 +115,25 @@
         </section>
 
     </div>
-
+    <script>/* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
 </body>
 </html>
